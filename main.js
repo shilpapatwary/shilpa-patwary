@@ -6,9 +6,12 @@ $(document).ready(function(){
     
     $(".nav__link").on('click', function(e) {
        let elem = $(e.currentTarget).find('a');
+       $('.nav__link a').removeClass('active');
+       elem.addClass('active');
        scrollToAnchor(elem.attr('href'));
     });
     $(".move_to_top").on('click', function(e) {
+        $('.nav__link a').removeClass('active');
         scrollToAnchor('#about');
      });
 });

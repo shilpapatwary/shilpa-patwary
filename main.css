@@ -17,6 +17,10 @@ header{
 }
 header a{
     color: #ffffff;
+    transition: font-size 1s;
+}
+header a.active{
+   font-size: 30px;
 }
 nav{
     position: relative;
@@ -83,6 +87,7 @@ nav li{
 .portfolio__content_item{
     width: 25%;
     border: 1px solid #00000047;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
 .item__image img{
     width:100%;
@@ -131,12 +136,20 @@ nav li{
     color: #00a2b9;
     font-size: 3rem;
 }
-.blog__content_item{
-    width:25%;
-    margin-left:5%;
+.blog__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.8rem;
 }
-.blog__content_item img{
-    width:100%;
+.blog__content_item{
+    border: 1px solid #ffffff;
+    padding: 5rem;
+    text-align: center;
+}
+.blog__content_item button{
+    margin-top:2rem;
 }
 .move_to_top{
     float: right;
@@ -188,5 +201,8 @@ nav li{
     }
     .blog__content_item{
         width: 90%;
+    }
+    header a.active{
+        font-size: 2.5rem;
     }
 }
