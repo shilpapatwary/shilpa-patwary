@@ -1,6 +1,9 @@
 html{
     font-size: 10px;
 }
+body{
+    overflow: hidden;
+}
 li{
     list-style: none;
 }
@@ -35,7 +38,7 @@ nav li{
     padding-top:11rem;
     font-size: 1.4rem;
 }
-.pageSection:nth-child(2n) {
+.pageSection:nth-child(2n+1) {
     background-color:#000000;
     color: #ffffff;
 }
@@ -127,4 +130,63 @@ nav li{
 .contact__content_social  a{
     color: #00a2b9;
     font-size: 3rem;
+}
+.blog__content_item{
+    width:25%;
+    margin-left:5%;
+}
+.blog__content_item img{
+    width:100%;
+}
+.move_to_top{
+    float: right;
+    margin: 3rem;
+    font-size: 5rem;
+    cursor: pointer;
+}
+/* Transition animations */
+
+/* Mobile styles */
+@media only screen and (max-width:768px) {
+    .portfolio__content_item{
+        width: 95%;
+        margin: 1rem;
+    }
+    .portfolio__content{
+        display: block;
+        margin-top: 13%;
+    }
+    .item__image{
+        width: 45%;
+        display: inline-block;
+        margin: 1rem;   
+    }
+    .item__links{
+        width: 45%;
+        display: inline-block;
+    }
+    .item__image img{
+        height: 10rem;
+    }
+    .item__header{
+        border-bottom: 1px solid #b8b8b8;
+    }
+    .content{
+        height: auto;
+        margin: 4rem;
+        flex-direction: column;
+    }
+    .about__profile_img{
+        width: 50%;
+    }
+    .about__profile_description{
+        width: auto;
+        margin: 2rem;
+    }
+    #blog__content{
+        margin: 5rem 1rem;
+    }
+    .blog__content_item{
+        width: 90%;
+    }
 }

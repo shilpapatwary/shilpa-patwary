@@ -10,19 +10,24 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" href="lib/fontawesome/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </head>
 <body>
    <header>
       <nav>
           <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#blog">Blog</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="nav__link"><a href="#about">About</a></li>
+              <li class="nav__link"><a href="#portfolio">Portfolio</a></li>
+              <li class="nav__link"><a href="#blog">Blog</a></li>
+              <li class="nav__link"><a href="#contact">Contact</a></li>
           </ul>
       </nav>
    </header> 
+   <section id="main">
    <section id="about" class="pageSection">
        <div class="content">
             <section class="about__profile_img">
@@ -74,8 +79,22 @@
            
        </section>
    </section>
-   <section id="blog" class="pageSection">blog</section>
+   <section id="blog" class="pageSection">
+       <section id="blog__content">
+            <!-- <div class="blog__content_links">
+                   <span class="fab fa-medium"></span>
+            </div> -->
+           <div class="blog__content_item">
+               <a href="">
+                   <img src="images/blog1.png">
+               </a>
+           </div>
+       </section>
+   </section>
    <section id="contact" class="pageSection">
+        <section class="move_to_top">
+                <span class="fa fa-arrow-circle-o-up"></span>
+            </section>
        <section class="contact__content">
             <div class="contact__content_social">
                 <div><a href=""><span class="fab fa-linkedin"></span></a></div>
@@ -93,6 +112,8 @@
                 </form>
             </div>
        </section>
+       
    </section>
+</section>
 </body>
 </html>
