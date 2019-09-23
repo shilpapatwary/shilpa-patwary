@@ -14,5 +14,6 @@ $(document).ready(function(){
         $('.nav__link a').removeClass('active');
         scrollToAnchor('#about');
      });
+     
 });
    
