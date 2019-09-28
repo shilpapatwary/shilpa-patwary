@@ -14,6 +14,20 @@ $(document).ready(function(){
         $('.nav__link a').removeClass('active');
         scrollToAnchor('#about');
      });
-     
+     $('#contact_form').on('submit', function(e) {
+        e.preventDefault();
+        const form = $('#contact_form');
+        const url = "https://script.google.com/macros/s/AKfycbybU6KFMDUArUMdo87OcHtM97okKqcHELE-D-V5Tw/exec";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: form.serialize(),
+            success: function(data) {
+                $(".success").show().delay(4000).hide();
+                form.trigger("reset");
+            }
+        })
+        
+     })
 });
    

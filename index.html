@@ -18,10 +18,16 @@
 </head>
 <body>
    <header>
-      <nav>
+       <div class="header_name">
+        <span>Shilpa Patwary</span>
+        <span class="header_name__details">Front-end Developer | Musician</span>
+       </div>
+      <nav class="header_nav">
           <ul>
               <li class="nav__link"><a href="#about">About</a></li>
               <li class="nav__link"><a href="#portfolio">Portfolio</a></li>
+              <li class="nav__link"><a href="#music">Music</a></li>
+              <li class="nav__link"><a href="#teachForIndia">Causes</a></li>
               <li class="nav__link"><a href="#blog">Blog</a></li>
               <li class="nav__link"><a href="#contact">Contact</a></li>
           </ul>
@@ -53,44 +59,65 @@
    <section id="portfolio" class="pageSection">
        <section class="portfolio__content">
            <div class="portfolio__content_item">
-               <div class="item__header"> <span class="fas fa-utensils"></span>Food Gallery </div>
-               <div class="item__image"><img src="images/food-gallery.jpeg"></div>
-               <div class="item__links">
-                   <span class="fab fa-github"><a href="https://github.com/shilpapatwary/food-gallery" target="_blank">Github code</a></span>
-                   <span class="fab fa-chrome"><a href="https://shilpapatwary.github.io/food-gallery/" target="_blank">Demo</a></span>
-                </div>
-           </div>
-           <div class="portfolio__content_item">
-                <div class="item__header"> <span class="fas fa-comments"></span>Chat App</div>
-                <div class="item__image"><img src="images/chat_application.jpeg"></div>
+            <div class="card project-1"><img src="images/food-gallery2.jpeg"></div>  
+            <!-- <div class="item__image"><img src="images/food-gallery.jpeg"></div> -->
+            <div class="project__info">
+                <div class="item__header"> <span class="fas fa-utensils"></span>Food Gallery </div>
                 <div class="item__links">
-                    <span class="fab fa-github"><a href="https://github.com/shilpapatwary/github-assistant" target="_blank">Github code</a></span>
-                    <span class="fab fa-chrome"><a href="https://github-assistant-slack.herokuapp.com/" target="_blank">Demo</a></span>
-                 </div>
-           </div>
-           <div class="portfolio__content_item">
-                <div class="item__header"> <span class="fas fa-sticky-note"></span>ToDo App</div>
-                <div class="item__image"><img src="images/Notes_app.jpeg"></div>
-                <div class="item__links">
-                    <span class="fab fa-github"><a href="https://github.com/shilpapatwary/to-do" target="_blank">Github code</a></span>
-                    <span class="fab fa-chrome"><a href="https://shilpapatwary.github.io/to-do/" target="_blank">Demo</a></span>
-                 </div>
-           </div>
-            <div class="portfolio__content_item">
-                <div class="item__header"> <span class="fas fa-sticky-note"></span>Chef Abode</div>
-                <div class="item__image"><img src="images/recipes.svg"></div>
-                <div class="item__links">
-                    <span class="fab fa-github"><a href="https://github.com/shilpapatwary/food-recipes" target="_blank">Github code</a></span>
-                    <span class="fab fa-chrome"><a href="https://shilpapatwary.github.io/food-recipes/#/" target="_blank">Demo</a></span>
+                    <span class="fab fa-github"><a href="https://github.com/shilpapatwary/food-gallery" target="_blank">Github code</a></span>
+                    <span class="fab fa-chrome"><a href="https://shilpapatwary.github.io/food-gallery/" target="_blank">Demo</a></span>
                 </div>
             </div>
-            <div class="portfolio__content_item">
-                <div class="item__header"> <span class="fas fa-sticky-note"></span>Team Manager</div>
-                <div class="item__image"><img src="images/collaboration.jpg"></div>
-                <div class="item__links">
-                    <span class="fab fa-github"><a href="https://github.com/shilpapatwary/team-manager" target="_blank">Github code</a></span>
-                    <span class="fab fa-chrome"><a href="https://shilpapatwary.github.io/team-manager/#/" target="_blank">Demo</a></span>
+               
+           </div>
+           <div class="portfolio__content_item">
+                <div class="card project-2"><img src="images/chat_application.jpeg"></div>
+                <div class="project__info">
+                        <div class="item__header"> <span class="fas fa-comments"></span>Github Assistant</div>
+                        <!-- <div class="item__image"></div> -->
+                        <div class="item__links">
+                            <span class="fab fa-github"><a href="https://github.com/shilpapatwary/github-assistant" target="_blank">Github code</a></span>
+                            <span class="fab fa-chrome"><a href="https://github-assistant-slack.herokuapp.com/" target="_blank">Demo</a></span>
+                         </div>
+                </div> 
+                
+           </div>
+           <div class="portfolio__content_item">
+                <div class="card project-4"><img src="images/chef3.jpeg"></div>
+                <div class="project__info">
+                        <div class="item__header"> <span class="fa fa-cutlery"></span>Chef Abode</div>
+                        <!-- <div class="item__image"><img src="images/recipes.svg"></div> -->
+                        <div class="item__links">
+                            <span class="fab fa-github"><a href="https://github.com/shilpapatwary/food-recipes" target="_blank">Github code</a></span>
+                            <span class="fab fa-chrome"><a href="https://shilpapatwary.github.io/food-recipes/#/" target="_blank">Demo</a></span>
+                        </div>
                 </div>
+            
+        </div>
+           <div class="portfolio__content_item">
+                <div class="card project-3"><img src="images/Notes_app.jpeg"></div>
+                <div class="project__info">
+                        <div class="item__header"> <span class="fas fa-sticky-note"></span>ToDo App</div>
+                        <!-- <div class="item__image"><img src="images/Notes_app.jpeg"></div> -->
+                        <div class="item__links">
+                            <span class="fab fa-github"><a href="https://github.com/shilpapatwary/to-do" target="_blank">Github code</a></span>
+                            <span class="fab fa-chrome"><a href="https://shilpapatwary.github.io/to-do/" target="_blank">Demo</a></span>
+                         </div>
+                </div>
+                
+           </div>
+            
+            <div class="portfolio__content_item">
+                <div class="card project-5"><img src="images/collaboration.jpg"></div>
+                    <div class="project__info">
+                            <div class="item__header"> <span class="fa fa-cogs"></span>Team Manager</div>
+                            <!-- <div class="item__image"></div> -->
+                            <div class="item__links">
+                                <span class="fab fa-github"><a href="https://github.com/shilpapatwary/team-manager" target="_blank">Github code</a></span>
+                                <span class="fab fa-chrome"><a href="https://shilpapatwary.github.io/team-manager/#/" target="_blank">Demo</a></span>
+                            </div>
+                    </div>
+               
             </div>
        </section>
    </section>
@@ -105,28 +132,30 @@
            </div>
        </section>
    </section>
-   <section id="contact" class="pageSection">
+   <section id="music" class="pageSection"></section>
+   <section id="teachForIndia" class="pageSection"></section>
+<section id="contact" class="pageSection">
+    <section class="contact__content">
+        <div class="contact__content_social">
+            <div><a href="https://www.linkedin.com/in/shilpa-patwary-3565b574/" target="_blank"><span class="fab fa-linkedin"></span></a></div>
+            <div><a href="https://www.facebook.com/shilpa.patwary" target="_blank"><span class="fab fa-facebook"></span></a></div>
+            <div><a href="https://join.skype.com/invite/m9jh669uyy2g" target="_blank"><span class="fab fa-skype"></span></a></div>
+    
+        </div>
+        <div class="contact__content_email form-group">
+            <form class="gform" id="contact_form" action="https://script.google.com/macros/s/AKfycbybU6KFMDUArUMdo87OcHtM97okKqcHELE-D-V5Tw/exec" method="post">
+                <input type="text" placeholder="NAME" class="form-control" name="name" required>
+                <input type="email" placeholder="EMAIL" name="email" required class="form-control">
+                <textarea placeholder="YOUR MESSAGE" name="message" class="form-control"></textarea>
+                <input type="submit" value="Send" class="btn btn-info btn-lg">
+                <input type="reset" value="Reset" class="btn btn-info btn-lg">
+                <span class="success">Mail Sent</span>
+            </form>
+        </div>
         <section class="move_to_top">
-                <span class="fa fa-arrow-circle-o-up"></span>
+                <span class="fas fa-angle-double-up"></span>
             </section>
-       <section class="contact__content">
-            <div class="contact__content_social">
-                <div><span class="contact_text">View my profile!</span><a href="https://www.linkedin.com/in/shilpa-patwary-3565b574/" target="_blank"><span class="fab fa-linkedin"></span></a></div>
-                <div><span class="contact_text">Connect with me!</span><a href="https://www.facebook.com/shilpa.patwary" target="_blank"><span class="fab fa-facebook"></span></a></div>
-                <div><span class="contact_text">Lets Chat!</span><a href="https://join.skype.com/invite/m9jh669uyy2g" target="_blank"><span class="fab fa-skype"></span></a></div>
-                <div><span class="contact_text">Mail Me!</span><a href=# target="_blank"><span class="fas fa-envelope-square" onclick="location.href='mailto:shilpa.patwary15@gmail.com';"></span></a></div>
-            </div>
-            <!-- <div class="contact__content_email form-group">
-                <form action="mailto:shilpa.patwary15@gmail.com?subject=FromContactUs" method="post">
-                    <input type="text" placeholder="NAME" class="form-control" required>
-                    <input type="email" placeholder="EMAIL" required class="form-control">
-                    <textarea placeholder="Your Message" class="form-control"></textarea>
-                    <input type="submit" value="Send" class="btn btn-info btn-lg">
-                    <input type="reset" value="Reset" class="btn btn-info btn-lg">
-                </form>
-            </div> -->
-       </section>
-       
+    </section>
    </section>
 </section>
 </body>
