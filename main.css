@@ -148,7 +148,7 @@ nav li {
 }
 .portfolio__content {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   /* height: 100%; */
   flex-wrap: wrap;
   align-items: center;
@@ -156,8 +156,9 @@ nav li {
 }
 .portfolio__content_item {
   width: 30%;
-  border: 1px solid #00000047;
+  /* border: 1px solid #00000047; */
   position: relative;
+  margin-top: 5%;
 }
 .item__image img {
   width: 100%;
@@ -165,10 +166,9 @@ nav li {
 }
 .item__header {
   padding: 1rem;
-  font-size: large;
+  font-size: 14px;
   text-align: center;
   /* position: absolute; */
-  width: 0;
   top: 0px;
   left: 0px;
   letter-spacing: 2px;
@@ -183,22 +183,29 @@ nav li {
   justify-content: space-evenly;
   padding: 2rem;
   font-size: 1.6rem;
-  opacity: 0;
   transition: opacity 1s ease-in-out;
 }
 .item__links span:before {
   padding-right: 0.5rem;
 }
 .causes-section {
+  box-sizing: border-box;
   margin-top: 7%;
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .causes_images {
-  width: 40%;
+  box-sizing: border-box;
+  width: 70%;
+  margin-right: 10%;
+}
+.causes_text {
+  margin-right: 10%;
 }
 .causes_images img {
   width: 50%;
-  margin: 0.5% 0;
+  margin: 1% 0;
 }
 .causes_images div:nth-child(2n) {
   text-align: right;
@@ -270,31 +277,37 @@ input.btn {
 }
 /* portfolio styles section */
 .card {
-  height: 20rem;
-  transition: opacity 0.5s;
+  height: 15rem;
+  /* transition: opacity 0.5s; */
   border: 0;
+  display: flex;
+  align-items: center;
 }
 .card img {
-  height: 20rem;
+  height: 15rem;
+  border-radius: 50%;
+  width: 60%;
 }
 .project__info {
-  opacity: 0;
+  /* opacity: 0;
   height: 20rem;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 100%; */
+  background-color: #faebd76e;
+  height: 10rem;
 }
 .portfolio__content_item:hover .card {
-  opacity: 0;
+  /* opacity: 0; */
 }
 .portfolio__content_item:hover .item__links {
-  opacity: 2;
+  /* opacity: 2; */
 }
 .portfolio__content_item:hover .project__info {
-  opacity: 2;
+  /* opacity: 2; */
 }
 .portfolio__content_item:hover .item__header {
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* Transition animations */
