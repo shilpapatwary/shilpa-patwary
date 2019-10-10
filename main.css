@@ -75,7 +75,7 @@ nav li {
 }
 .about__profile_img {
   height: 100%;
-  width: 15%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +136,8 @@ nav li {
   height: 100%;
 }
 .about__profile_description {
-  width: 30%;
+  width: 45%;
+  font-size: 16px;
 }
 .about__profile_tech {
   margin-top: 2rem;
@@ -146,6 +147,23 @@ nav li {
   font-size: 2.2rem;
   flex-wrap: wrap;
   color: #00ffff;
+}
+/* section.portfolio__content:before {
+  content: 'Sample Work';
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+} */
+.portfolioPageSection {
+  flex-direction: row;
+  
+}
+.sample_text {
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
 }
 .portfolio__content {
   display: flex;
