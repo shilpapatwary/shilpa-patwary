@@ -328,6 +328,19 @@ input.btn {
   header {
     clip-path: none;
     height: auto;
+    flex-direction: column;
+  }
+  .header_name__details {
+    font-size: 11px;
+  }
+  nav ul {
+    padding: 0;
+  }
+  nav li {
+    font-size: 12px;
+  }
+  .header_name {
+    width: 100%;
   }
   #portfolio {
     padding: 5rem 0;
@@ -346,8 +359,7 @@ input.btn {
     margin: 1rem;
   }
   .item__links {
-    width: 45%;
-    display: inline-block;
+    justify-content: space-between;
   }
   .item__image img {
     height: 10rem;
@@ -374,17 +386,54 @@ input.btn {
     width: 90%;
   }
   header a.active {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
   .contact__content {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     min-height: 100vh;
+    margin: 0 5%;
+    flex-direction: column;
   }
   .contact__content_social div:nth-child(2n) {
     text-align: left;
   }
   .contact__content_social {
-    width: 75%;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
   }
+  .contact__content_email {
+    width: 100%;
+  }
+  .musicSection {
+    flex-direction: column;
+  }
+  .music-info {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  .music-blog-header:before, .music-blog-header::after {
+    width: 4rem;
+  }
+  .music-blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .move_to_top {
+    margin: 0;
+  }
+  .causes-section {
+    flex-direction: column;
+  }
+  .causes_images {
+    width: 100%;
+  }
+  .contact__content_email input,
+.contact__content_email textarea {
+  margin: 2rem 0;
+}
 }
