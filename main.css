@@ -7,6 +7,9 @@ body {
 li {
   list-style: none;
 }
+span.loading {
+  display: none;
+}
 header {
   font-size: 2rem;
   background-color: #000000;
@@ -40,7 +43,7 @@ header a {
   transition: font-size 1s;
 }
 header a:hover {
-    color: #00ffff;
+  color: #00ffff;
 }
 header a.active {
   font-size: 30px;
@@ -144,11 +147,11 @@ nav li {
   font-size: 16px;
 }
 .about__profile_description a {
-    color: inherit;
-    text-decoration: underline;
+  color: inherit;
+  text-decoration: underline;
 }
 .about__profile_description a:hover {
-    color: #00ffff;
+  color: #00ffff;
 }
 .about__profile_tech {
   margin-top: 2rem;
@@ -166,7 +169,6 @@ nav li {
 } */
 .portfolioPageSection {
   flex-direction: row;
-  
 }
 .sample_text {
   text-orientation: upright;
@@ -303,8 +305,14 @@ input.btn {
   cursor: pointer;
   color: #00a2b9;
 }
-.success {
+.form_buttons {
+  display: flex;
+  align-items: center;
+}
+span.success {
   display: none;
+  font-size: 24px;
+  color: #008000;
 }
 /* portfolio styles section */
 .card {
@@ -320,7 +328,6 @@ input.btn {
   width: 10vw;
 }
 .project__info {
-  
   background-color: #faebd76e;
   height: 10rem;
 }
@@ -422,11 +429,12 @@ input.btn {
   }
   .music-info {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .music-blog-header:before, .music-blog-header::after {
+  .music-blog-header:before,
+  .music-blog-header::after {
     width: 4rem;
   }
   .music-blog-content {
@@ -444,7 +452,7 @@ input.btn {
     width: 100%;
   }
   .contact__content_email input,
-.contact__content_email textarea {
-  margin: 2rem 0;
-}
+  .contact__content_email textarea {
+    margin: 2rem 0;
+  }
 }
