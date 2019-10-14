@@ -39,8 +39,12 @@ header a {
   color: #ffffff;
   transition: font-size 1s;
 }
+header a:hover {
+    color: #00ffff;
+}
 header a.active {
   font-size: 30px;
+  color: #00ffff;
 }
 nav {
   position: relative;
@@ -138,6 +142,13 @@ nav li {
 .about__profile_description {
   width: 45%;
   font-size: 16px;
+}
+.about__profile_description a {
+    color: inherit;
+    text-decoration: underline;
+}
+.about__profile_description a:hover {
+    color: #00ffff;
 }
 .about__profile_tech {
   margin-top: 2rem;
