@@ -26,9 +26,10 @@
           <ul>
               <li class="nav__link"><a href="#about">About</a></li>
               <li class="nav__link"><a href="#portfolio">Portfolio</a></li>
-              <li class="nav__link"><a href="#music">Music</a></li>
-              <li class="nav__link"><a href="#teachForIndia">Causes</a></li>
               <li class="nav__link"><a href="#blog">Blog</a></li>
+              <li class="nav__link hidden"><a href="#music">Music</a></li>
+              <li class="nav__link"><a href="#teachForIndia">Causes</a></li>
+              
               <li class="nav__link"><a href="#contact">Contact</a></li>
               <li class="nav__link"><a target="_blank" href="./assets/Shilpa_CV.pdf">CV</a></li>
           </ul>
@@ -137,66 +138,48 @@
             </div>
        </section>
    </section>
-   <section id="music" class="pageSection musicSection">
-       <div class="music-bg"></div>
-       <div class="music-info">
-        <div class="sound-cloud">
-            <span class="fa fa-music icon"></span>
-            <span>Follow my music on <a href="https://soundcloud.com/user-758228305" target="_blank"><span class=" fa fa-soundcloud"></span></a></span>
-        </div>
-        <div class="music-blog ">
-            <div class="music-blog-header"> <span><span class="fas fa-blog icon"></span>Music Blog</span></div>
-            <div class="music-blog-content">
-                <div class=" music-content music-content-1">blog1 blog1 blog1 blog1 blog1 blog1 blog1 blog1 blog1 blog1 blog1
-                    ...<a class="view_more" href="#">view more</a></div>
-                <div class="music-content music-content-1">blog2 blog2 blog2 blog2 blog2 blog2 blog2 blog2 blog2 ...<a class="view_more"
-                        href="#">view more</a></div>
-                <div class="music-content music-content-1">blog3 blog3 blog3 blog3 blog3 blog3 blog3 blog3 blog3 ...<a class="view_more"
-                        href="#">view more</a></div>
-            </div>
-        </div>
-           
-       </div>
-   </section>
-   <section id="teachForIndia" class="pageSection causes-section">
-    <section class="causes_images">
-        <div class="education_img">
-            <img src="images/education_1.jpg" />
-        </div>
-        <div class="art_edu_img">
-           <img src="images/education_art.jpg" />
-        </div>
-        <div class="bala_img">
-            <img src="images/BALA.jpg" />
-        </div>
-    </section>
-       <section class="causes_text">
-           <p>Every child must have access to quality education and the bridges to
-                better access can be built with resources and expertise from many 
-                different sectors. I learned this crucial lesson during the time I spent as a fellow at Teach For India.
-                 I taught in an under-resourced government school for two years between 2013-15.</p>
-            <p>
-                    During my time with Teach For India, I executed several projects aimed at improving the prospects of children's development.  My two capstone projects were BALA: Building as a Learning Aid and KALA which integrate arts with education.
-            </p>
-            <p>
-                    If you would like to know more about these projects or want to help the cause please get in touch with me. I am happy to share the resources I have.
-            </p>
-            <p>
-                    I see a lot of potential in integrating art and technology with education. Being a tech-savvy person and also an educationist, I am up for taking up any projects that integrate technology and education. If you have ideas that will help this cause I am happy to collaborate with you and contribute within my area of expertise.
-            </p>
-       </section>
-   </section>
    <section id="blog" class="pageSection">
-       <section class="blog__content">
-            <!-- <div class="blog__content_links">
-                   <span class="fab fa-medium"></span>
-            </div> -->
-           <div class="blog__content_item">
-               <p>You can check out my latest technical articles on my Blog here.</p>
-               <a href="https://medium.com/@shilpa.patwary15" target="_blank"><button class="btn btn-lg"><span class="fa fa-sign-in pr-3"></span>Enter my Blog!</button></a>
-           </div>
-       </section>
-   </section>
+        <section class="blog__content">
+             <!-- <div class="blog__content_links">
+                    <span class="fab fa-medium"></span>
+             </div> -->
+            <div class="blog__content_item">
+                <p>You can check out my latest technical articles on my Blog here.</p>
+                <a href="https://medium.com/@shilpa.patwary15" target="_blank"><button class="btn btn-lg"><span class="fa fa-sign-in pr-3"></span>Enter my Blog!</button></a>
+            </div>
+        </section>
+    </section>
+    <section id="teachForIndia" class="pageSection causes-section">
+            <section class="causes_images">
+                <div class="education_img">
+                    <img src="images/education_1.jpg" />
+                </div>
+                <div class="art_edu_img">
+                   <img src="images/education_art.jpg" />
+                </div>
+                <div class="bala_img">
+                    <img src="images/BALA.jpg" />
+                </div>
+            </section>
+               <section class="causes_text">
+                   <p>Every child must have access to quality education and the bridges to
+                        better access can be built with resources and expertise from many 
+                        different sectors. I learned this crucial lesson during the time I spent as a fellow at Teach For India.
+                         I taught in an under-resourced government school for two years between 2013-15.</p>
+                    <p>
+                            During my time with Teach For India, I executed several projects aimed at improving the prospects of children's development.  My two capstone projects were BALA: Building as a Learning Aid and KALA which integrate arts with education.
+                    </p>
+                    <p>
+                            If you would like to know more about these projects or want to help the cause please get in touch with me. I am happy to share the resources I have.
+                    </p>
+                    <p>
+                            I see a lot of potential in integrating art and technology with education. Being a tech-savvy person and also an educationist, I am up for taking up any projects that integrate technology and education. If you have ideas that will help this cause I am happy to collaborate with you and contribute within my area of expertise.
+                    </p>
+               </section>
+           </section>
+  
+   
+   
    
 <section id="contact" class="pageSection">
     <section class="contact__content">
@@ -225,6 +208,27 @@
             </section>
     </section>
    </section>
+   <section id="music" class="pageSection musicSection hidden">
+        <div class="music-bg"></div>
+        <div class="music-info">
+         <div class="sound-cloud">
+             <span class="fa fa-music icon"></span>
+             <span>Follow my music on <a href="https://soundcloud.com/user-758228305" target="_blank"><span class=" fa fa-soundcloud"></span></a></span>
+         </div>
+         <div class="music-blog ">
+             <div class="music-blog-header"> <span><span class="fas fa-blog icon"></span>Music Blog</span></div>
+             <div class="music-blog-content">
+                 <div class=" music-content music-content-1">blog1 blog1 blog1 blog1 blog1 blog1 blog1 blog1 blog1 blog1 blog1
+                     ...<a class="view_more" href="#">view more</a></div>
+                 <div class="music-content music-content-1">blog2 blog2 blog2 blog2 blog2 blog2 blog2 blog2 blog2 ...<a class="view_more"
+                         href="#">view more</a></div>
+                 <div class="music-content music-content-1">blog3 blog3 blog3 blog3 blog3 blog3 blog3 blog3 blog3 ...<a class="view_more"
+                         href="#">view more</a></div>
+             </div>
+         </div>
+            
+        </div>
+    </section>
    </section>
    
 </body>

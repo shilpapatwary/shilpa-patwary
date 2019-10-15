@@ -7,6 +7,9 @@ body {
 li {
   list-style: none;
 }
+.hidden {
+    display: none;
+}
 span.loading {
   display: none;
 }
@@ -255,7 +258,7 @@ nav li {
 .contact__content_email input,
 .contact__content_email textarea {
   margin: 2rem;
-  background-color: #80808036;
+  /* background-color: #80808036; */
 }
 input.btn {
   background-color: #00a2b9;
@@ -275,7 +278,7 @@ input.btn {
   font-size: 2rem;
 }
 .contact__content_social a {
-  color: #00a2b9;
+  color: #00ffff;
   font-size: 3rem;
 }
 .blog__content {
@@ -303,7 +306,7 @@ input.btn {
   margin: 3rem;
   font-size: 5rem;
   cursor: pointer;
-  color: #00a2b9;
+  color: #00ffff;
 }
 .form_buttons {
   display: flex;
