@@ -19,7 +19,7 @@ header {
   position: fixed;
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
-  height: 150px;
+  height: 14rem;
   display: flex;
   box-sizing: border-box;
   z-index: 1;
@@ -68,9 +68,11 @@ nav li {
   text-align: center;
   font-size: 1.6rem;
 }
+.mainSection {
+  padding-top: 14rem;
+}
 .pageSection {
   height: 100vh;
-  padding-top: 11rem;
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
@@ -184,15 +186,12 @@ nav li {
 .portfolio__content {
   display: flex;
   justify-content: space-evenly;
-  /* height: 100%; */
   flex-wrap: wrap;
   align-items: center;
-  margin: 0% 15%;
+  margin: 7% 15% 3%;
 }
 .portfolio__content_item {
-  /* width: 30%; */
   width: 20vw;
-  /* border: 1px solid #00000047; */
   position: relative;
   margin-top: 5%;
 }
@@ -462,7 +461,7 @@ span.success {
     display: none;
   }
   .causes_text {
-    margin: 2% 10%; 
+    margin: 2% 10%;
   }
   .form_buttons {
     justify-content: space-evenly;
