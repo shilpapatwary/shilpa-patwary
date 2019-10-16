@@ -467,6 +467,28 @@ span.success {
     padding-top: 11rem;
   }
   .causes-section {
-      padding-top: 14rem;
+    padding-top: 14rem;
+  }
+}
+@media only screen and (max-height: 700px) {
+  .portfolio__content_item {
+    display: flex;
+    width: 30%;
+   
+  }
+  .item__links {
+    flex-direction: column;
+  }
+  .project__info {
+    height: auto;
+    width: 100%;
+    position: relative;
+    right: 8%;
+  }
+  .portfolio__content {
+    margin: 7% 1% 3%;
+  }
+  .item__links span{
+      padding: 5% 0;
   }
 }
