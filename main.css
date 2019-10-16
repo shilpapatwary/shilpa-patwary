@@ -68,6 +68,9 @@ nav li {
   text-align: center;
   font-size: 1.6rem;
 }
+.aboutPageSection {
+  padding-top: 12rem;
+}
 .pageSection {
   height: 100vh;
   font-size: 1.4rem;
@@ -359,9 +362,6 @@ span.success {
   .header_name {
     width: 100%;
   }
-  #portfolio {
-    padding: 5rem 0;
-  }
   .portfolio__content_item {
     width: 95%;
     margin: 1rem;
@@ -462,5 +462,11 @@ span.success {
   }
   .form_buttons {
     justify-content: space-evenly;
+  }
+  .portfolioPageSection {
+    padding-top: 11rem;
+  }
+  .causes-section {
+      padding-top: 14rem;
   }
 }
